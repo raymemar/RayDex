@@ -1,0 +1,187 @@
+.container-carregamento {
+  text-align: center;
+  padding: 40px;
+}
+
+.container-erro {
+  text-align: center;
+  padding: 40px;
+}
+
+.texto-erro {
+  color: red;
+}
+
+.grade-pokemons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cartao-pokemon {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: white;
+}
+
+.cartao-pokemon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.imagem-pokemon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+  object-fit: contain;
+}
+
+.numero-pokemon {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+}
+
+.nome-pokemon {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.tipos-pokemon {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  min-height: 24px; 
+}
+
+.etiqueta-tipo {
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.tipo-primario {
+  background-color: #4caf50;
+}
+
+.tipo-secundario {
+  background-color: #66bb6a;
+}
+
+.estado-vazio {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.titulo-vazio {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.descricao-vazio {
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.botao-vazio {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.botao-vazio:hover {
+  background-color: #45a049;
+}
+
+.etiqueta-tipo.tipo-fogo {
+    background-color: #ff6b35 !important;
+}
+
+.etiqueta-tipo.tipo-planta {
+    background-color: #4caf50 !important; 
+}
+
+.etiqueta-tipo.tipo-venenoso {
+    background-color: #9c27b0 !important; 
+}
+
+
+.etiqueta-tipo.tipo-psiquico {
+    background-color: #e91e63 !important; 
+}
+
+.etiqueta-tipo.tipo-inseto {
+    background-color: #2e7d32 !important; 
+}
+
+
+.etiqueta-tipo.tipo-elétrico,
+.etiqueta-tipo.tipo-eletrico {
+    background-color: #ffeb3b !important; 
+    color: #333 !important; 
+}
+
+.etiqueta-tipo.tipo-pedra {
+    background-color: #795548 !important; 
+}
+
+.etiqueta-tipo.tipo-agua {
+    background-color: #2196f3 !important; 
+}
+
+.etiqueta-tipo.tipo-normal {
+    background-color: #9e9e9e !important; 
+}
+
+.etiqueta-tipo.tipo-lutador {
+    background-color: #f44336 !important; 
+}
+
+.etiqueta-tipo.tipo-voador {
+    background-color: #03a9f4 !important; 
+}
+
+.etiqueta-tipo.tipo-fantasma {
+    background-color: #673ab7 !important; 
+}
+
+.etiqueta-tipo.tipo-ferro {
+    background-color: #607d8b !important; 
+}
+
+.etiqueta-tipo.tipo-dragao {
+    background-color: #3f51b5 !important; 
+}
+
+.etiqueta-tipo.tipo-sombrio {
+    background-color: #424242 !important; 
+}
+
+.etiqueta-tipo.tipo-fada {
+    background-color: #ffc0cb !important; 
+    color: #333 !important; 
+}
+
+.etiqueta-tipo.tipo-gelo {
+    background-color: #00bcd4 !important; 
+}
